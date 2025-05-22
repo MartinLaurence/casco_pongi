@@ -348,6 +348,30 @@ h6 {
     line-height: 24px;
   }
 }
+.certificates {
+  padding: 60px 0;
+  background: #f5f8fd;
+}
+
+.certificate-item {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.certificate-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 
 /*--------------------------------------------------------------
 # Sections General
